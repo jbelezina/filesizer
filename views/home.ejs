@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>File Metadata Microservice</title>
+</head>
+
+<body>
+
+<h3>File Metadata Microservice</h3>
+<p>Submit a file to check its size.</p>
+
+<form enctype="multipart/form-data" action="/upload" method="POST">
+<input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+Choose a file to upload: <input name="uploadedfile" type="file" /><br />
+<input type="submit" value="Upload File" />
+</form>
+
+</body>
+</html>
