@@ -4,7 +4,7 @@ let express = require('express'),
     multer  = require('multer'),
     upload = multer({ dest: 'upload/' }),
     fs = require('fs'),
-    portNo = 8080 || process.env.PORT;
+    portNo = process.env.PORT || 8080;
     
 let app = express();
 
