@@ -24,4 +24,4 @@ app.post('/upload', upload.single('uploadedfile'), function (req, res, next) {
     })
 });
 
-app.listen(8080, ()=>{console.log('server runnin on port' + portNo)});
+app.listen(portNo, ()=>{console.log('server runnin on port' + portNo)});
